@@ -7,5 +7,5 @@ const conexao = await mysql.createConnection({
     password: process.env.PASSWORD
 });
 
-console.log('db on');
+console.log('db on'); 
 export default conexao;
